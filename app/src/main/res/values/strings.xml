@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Lecture ReschedulingApp</string>
+
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="tab_text_1">Time Table</string>
+    <string name="tab_text_2">Hall Allocation</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string-array name="department">
+        <item>Your Department</item>
+        <item>ICT</item>
+        <item>ENT</item>
+        <item>BST</item>
+        <item>EET</item>
+        <item>MTT</item>
+        <item>BPT</item>
+        <item>FPT</item>
+    </string-array>
+    <string-array name="job_role">
+        <item>Your Role</item>
+        <item>Student</item>
+        <item>Lecture</item>
+        <item>Non A S</item>
+    </string-array>
+    <string-array name="place">
+        <item>Place</item>
+        <item>L1</item>
+        <item>L2</item>
+        <item>L3</item>
+        <item>ICT LAB</item>
+        <item>BIO LAB</item>
+        <item>Convocation</item>
+        <item>FPT</item>
+    </string-array>
+
+    <string-array name="day">
+        <item>Select day</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+</resources>

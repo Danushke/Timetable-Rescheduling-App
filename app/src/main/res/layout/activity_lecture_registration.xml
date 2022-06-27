@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/lightyellow">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Your \n Account Here"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:textSize="20dp"
+            android:textColor="@color/blackcolor"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/l_e_t_name"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/edit_text"
+            android:hint="Your Name"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColor="@color/fullwhite" />
+
+        <EditText
+            android:id="@+id/l_e_t_index"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit_text"
+            android:hint="Index Number"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColor="@color/fullwhite" />
+
+        <Spinner
+            android:id="@+id/spinner_l"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/spinner"/>
+
+        <EditText
+            android:id="@+id/l_e_t_email"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit_text"
+            android:hint="E mail"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColor="@color/fullwhite" />
+
+        <EditText
+            android:id="@+id/l_e_t_username"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit_text"
+            android:hint="User Name"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColor="@color/fullwhite" />
+
+        <EditText
+            android:id="@+id/l_e_t_password"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit_text"
+            android:hint="Password"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColor="@color/fullwhite" />
+
+        <EditText
+            android:id="@+id/l_e_t_password2"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit_text"
+            android:hint="Password"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColor="@color/fullwhite" />
+
+        <TextView
+            android:id="@+id/t_v_l_already_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Already have an account Click Here" />
+
+        <Button
+            android:id="@+id/l_register"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:text="Register" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

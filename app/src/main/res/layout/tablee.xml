@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrolLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalView"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal|vertical"
+            android:layout_width="wrap_content">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/table">
+                <TableRow>
+                    <TextView
+                    android:id="@+id/ttv1.1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="aaaaaaaaaaa"/>
+
+                    <TextView
+                    android:id="@+id/ttv1.2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="aaaabbbbba"/>
+
+                    <TextView
+                    android:id="@+id/ttv1.3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="aacccccccccccaaa"/>
+
+                    <TextView
+                    android:id="@+id/ttv1.4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="aaagggggaa"/>
+
+                    <TextView
+                    android:id="@+id/ttv1.5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="aakmaaa"/>
+
+                    <TextView
+                    android:id="@+id/ttv1.6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="aaaaaggj"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:id="@+id/ttv2.1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="aaaaa"/>
+
+                    <TextView
+                        android:id="@+id/ttv2.2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="aaaaa"/>
+
+                    <TextView
+                        android:id="@+id/ttv2.3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="aaaaa"/>
+
+                    <TextView
+                        android:id="@+id/ttv2.4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="aaaaa"/>
+
+                    <TextView
+                        android:id="@+id/ttv2.5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="aaaaa"/>
+
+                    <TextView
+                        android:id="@+id/ttv2.6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="aaaaa"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:id="@+id/ttv3.1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="aaaaa"/>
+
+                    <TextView
+                        android:id="@+id/ttv3.2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="aaaaa"/>
+
+                    <TextView
+                        android:id="@+id/ttv3.3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="aaaaa"/>
+
+                    <TextView
+                        android:id="@+id/ttv3.4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="aaaaa"/>
+
+                    <TextView
+                        android:id="@+id/ttv3.5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="aaaaa"/>
+
+                    <TextView
+                        android:id="@+id/ttv3.6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="aaaaa"/>
+                </TableRow>
+
+            </TableLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+</LinearLayout>
